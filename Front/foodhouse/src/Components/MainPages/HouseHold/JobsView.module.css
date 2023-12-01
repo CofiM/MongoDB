@@ -1,0 +1,15 @@
+.allProducts {
+    width: fit-content;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .Product {
+    width: 500px;
+  }
+  .Loading {
+    margin-left: 50%;
+    margin-top: 30%;
+    font-size: 50px;
+  }
+  

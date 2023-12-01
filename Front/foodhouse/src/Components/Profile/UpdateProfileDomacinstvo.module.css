@@ -1,0 +1,38 @@
+.mainDesign {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .buttonDiv {
+    display: flex;
+    justify-content: center;
+    padding-left: 9%;
+  
+    padding-top: 2%;
+    padding-bottom: 2%;
+  
+    height: 10%;
+  }
+  
+  .buttonDesign {
+    width: 222px;
+    font-size: 20px;
+    border-radius: 8px;
+  }
+  
+  .buttonDesign:hover {
+    background-color: darkgray;
+  }
+  
+  .divDesign {
+    height: 10%;
+  }
+  
+  .divInformation {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    width: fit-content;
+    margin: auto;
+  }
+  

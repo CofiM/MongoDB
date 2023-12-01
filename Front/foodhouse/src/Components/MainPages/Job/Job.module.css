@@ -1,0 +1,77 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  /* align-items: center; */
+  /* background-color: #e1e8c9; */
+ 
+  background-image: url('../../Pictures/Meteor.png');
+  width: 100%;
+  height: 100%; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+   background-size: cover; 
+}
+.searchDiv {
+  background-size: cover;
+  background-color: #e1e8c9;
+}
+
+
+.searchDiv > input {
+  height: 100%;
+  font-size: 18px;
+}
+
+.searchDiv > button {
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divForma {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  background-color: #e1e8c9;
+  width: 100%;
+}
+
+.divWorks {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.enabled {
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.buttonDesign {
+  border-radius: 8px;
+}
+
+.buttonDesign:hover {
+  background-color: #b4e197;
+}
+
+.lokacijaDesign {
+  border-radius: 8px;
+}
+
+.Loading {
+  margin-left: 50%;
+  margin-top: 30%;
+  font-size: 50px;
+}
